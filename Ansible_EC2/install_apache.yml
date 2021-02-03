@@ -1,0 +1,8 @@
+---
+- hosts: "{{ host_group }}"
+  remote_user: ubuntu
+  become: yes
+  become_user: root
+  become_method: sudo
+  roles:
+    - install-apache

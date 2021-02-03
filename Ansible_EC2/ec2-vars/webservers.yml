@@ -1,0 +1,11 @@
+ec2_instance_type: "t2.micro"
+ec2_image: "ami-0dc8d444ee2a42d8a"
+ec2_region: "eu-west-1"
+ec2_tag_Name: "AnsibleHost"
+ec2_tag_Type: "webserver"
+ec2_security_grp: "xxxxxxxxxxxxxxxxx"
+ec2_keypair: "Key"
+ec2_tag_Environment: "testing"
+aws_access_key: "xxxxxxxxxxxxxxxxx"
+aws_secret_key: "xxxxxxxxxxxxxxxxx"
+ec2_volume_size: 8
