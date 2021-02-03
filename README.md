@@ -1,5 +1,4 @@
- #  ANSIBLE CLI-User Manual
- ## Installation on Ansible Master Node
+**A) Installation on Ansible Master Node**
  
  >**Note:**  All installation instructions are specific to **`[Ubuntu Server 18.04 LTS (HVM), SSD Volume Type - ami-0dc8d444ee2a42d8a (64-bit x86) / ami-0c7316a2d5e1a85a1 (64-bit Arm)]`**
  
@@ -30,7 +29,7 @@
           >sudo apt-get update
           >sudo apt-get install ansible 
           
- ## Configuration
+ **B) Configuration**
  1.  **Add AWS Private Key:**
  
          >vi ~/.ssh/id_rsa
@@ -89,24 +88,31 @@
    6.  Config parameters defined in **`Ansible_EC2/AnsibleCLI.py`**
        1. **host_group** for dynamic inventory **(default `tag_Type_webserver`)**
       
- ## RUN		      
+ **C) RUN**	      
  1. **Run Ansible Playbook**
  
     >**Note:**  Do the `SSH`  to Ansible Master Node 
     
-    - Go to root dir  `Ansible_EC2`  under `/home/ubuntu`
+    	
+	 - Go to root dir  `Ansible_EC2`  under `/home/ubuntu`
   
-       ![enter image description here](https://raw.githubusercontent.com/GitPointer/ec2_ansible/main/ansible_master_pwd.png)
-
-
-    - Run below command
+       		
+		![enter image description here](https://raw.githubusercontent.com/GitPointer/ec2_ansible/main/ansible_master_pwd.png) 
+		
+	- Run below command
+	
 			 > `python AnsibleCLI.py`
-     - Below Menu will be display for option selection 
-
-   	   ![[Press between 1-5] : for launch the specified number of AWS EC2 t2.micro (Free-Tier) instances.[Press 6] :           for installing Apache on AWS EC2 t2.micro (Free-Tier) instances.[Press <9> to exit]>>>](https://raw.githubusercontent.com/GitPointer/ec2_ansible/main/playbook_run.png)	
-    
-    - Execution Result
- ![enter image description here](https://raw.githubusercontent.com/GitPointer/ec2_ansible/main/playbook_run_result.png)
+			
+       		
+		- Below Menu will be display for option selection 
+	
+   	        	
+			![enter image description here](https://raw.githubusercontent.com/GitPointer/ec2_ansible/main/playbook_run.png)	
+	
+		- Execution Result
+		
+	
+	        ![enter image description here](https://raw.githubusercontent.com/GitPointer/ec2_ansible/main/playbook_run_result.png)
 
 
 
