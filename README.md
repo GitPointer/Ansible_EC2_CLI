@@ -1,4 +1,4 @@
- # ANSIBLE CLI-User Manual
+ #  ANSIBLE CLI-User Manual
  ## Installation on Ansible Master Node
  
  >**Note:**  All installation instructions are specific to **`[Ubuntu Server 18.04 LTS (HVM), SSD Volume Type - ami-0dc8d444ee2a42d8a (64-bit x86) / ami-0c7316a2d5e1a85a1 (64-bit Arm)]`**
